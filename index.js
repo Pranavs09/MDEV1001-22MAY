@@ -17,5 +17,14 @@ db.run("INSERT INTYO INSTRUCTOR VALUES(76543, 'Singh', 'Finance',80000)");
 db.run("INSERT INTYO INSTRUCTOR VALUES(76766, 'Crick', 'Biology',72000)");
 db.run("INSERT INTYO INSTRUCTOR VALUES(83821, 'Brandt', 'comp. Sci.',92000)");
 db.run("INSERT INTYO INSTRUCTOR VALUES(98345, 'Kim', 'Elec. Eng.',80000)");
+
+db.each("SELECT * FROM INSTRUCTOR",function(err,row){
+    if(err)
+     console.log(row);
+    });
+
+    db.each("SELECT Name FROM INSTRUCTOR",function(err,row){
+         console.log(row);
+        });
 });
 
