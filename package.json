@@ -1,0 +1,22 @@
+{
+  "name": "ls",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pranavs09/MDEV1001-22MAY.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pranavs09/MDEV1001-22MAY/issues"
+  },
+  "homepage": "https://github.com/Pranavs09/MDEV1001-22MAY#readme",
+  "devDependencies": {
+    "sqlite3": "^4.0.8"
+  }
+}
